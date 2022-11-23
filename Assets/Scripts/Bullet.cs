@@ -29,6 +29,7 @@ public class Bullet : MonoBehaviour
 
         // X축 회전각
         float angleX = transform.eulerAngles.x + 90;
+        
 
         Destroy(gameObject, 10f);
 
